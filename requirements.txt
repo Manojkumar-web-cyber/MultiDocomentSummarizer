@@ -1,0 +1,27 @@
+#Core dependencies
+torch&gt;=2.0.0
+transformers&gt;=4.30.0
+datasets&gt;=2.15.0
+lightning&gt;=2.0.0
+
+#Evaluation matrics
+evaluate&gt;=0.4.0
+rouge-score&gt;=0.1.0
+bert-score&gt;=0.3.13
+nltk&gt;=3.8.0
+
+#Data processing
+pandas&gt;=2.0.0
+numpy&gt;=1.24.0
+tqdm&gt;=4.65.0
+
+#utilities
+pyyaml&gt;=6.0
+tensorboard&gt;=2.15.0
+jupyter&gt;=1.0.0
+notebook&gt;=6.5.0
+
+#Optional dependencies for specific features
+fastapi&gt;=0.100.0
+uvicorn&gt;=0.22.0
+pydantic&gt;=2.0.0
